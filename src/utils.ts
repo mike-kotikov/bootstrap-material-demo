@@ -1,9 +1,7 @@
 const createElement = (type: string, attrs?: { [key: string]: string }): HTMLElement => {
   const elem = document.createElement(type);
 
-  for (const attr in attrs) {
-    elem.setAttribute(attr, attrs[attr]);
-  }
+  Object.keys(attrs).forEach((attr) => elem.setAttribute(attr, attrs[attr]));
 
   return elem;
 };
