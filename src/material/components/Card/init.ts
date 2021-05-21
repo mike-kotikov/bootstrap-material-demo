@@ -1,4 +1,4 @@
-import {MDCRipple} from '@material/ripple';
+import { MDCRipple } from '@material/ripple';
 import { getElements } from '../../../utils';
 
 const init = () => {

@@ -29,15 +29,7 @@ const getElement = (selector: string): Element | null => {
 };
 
 const getElements = (selector: string): NodeListOf<Element> => {
-  return document.querySelectorAll(selector)
-}
+  return document.querySelectorAll(selector);
+};
 
-
-export {
-  createElement,
-  renderElement,
-  render,
-  insertHTML,
-  getElement,
-  getElements
-}
+export { createElement, renderElement, render, insertHTML, getElement, getElements };

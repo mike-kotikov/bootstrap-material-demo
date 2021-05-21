@@ -4,5 +4,5 @@ import initialize from './init';
 export default {
   containerName: 'app-bar-comp-container',
   template,
-  initialize
+  initialize,
 };

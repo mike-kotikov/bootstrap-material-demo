@@ -12,9 +12,9 @@ const clear = () => {
   const materialRoot = getElement('#materialRoot');
   bootstrapRoot.innerHTML = '';
   materialRoot.innerHTML = '';
-}
+};
 
-[bootstrapBtn, materialBtn].forEach(elem => elem.addEventListener('mousedown', clear));
+[bootstrapBtn, materialBtn].forEach((elem) => elem.addEventListener('mousedown', clear));
 
 bootstrapBtn.addEventListener('click', renderBootstrapComponents);
 materialBtn.addEventListener('click', renderMaterialComponents);

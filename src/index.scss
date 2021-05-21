@@ -1,7 +1,7 @@
 @use "@material/button/button";
 @include button.styles;
 
-@import "./material";
+@import './material';
 
 #bootstrapBtn,
 #materialBtn {
